@@ -1,0 +1,57 @@
+# Netlify Configuration for Free Tier
+
+[build]
+  # Publish directory (where your static files are)
+  publish = "public"
+  
+  # No build command needed for static site
+  command = "echo 'No build required - static site'"
+
+# Redirect rules
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
+  
+  # Don't apply to existing files
+  conditions = {Role = [""], Country = []}
+
+# Custom headers for security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Cache static assets
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Error page
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# Development context
+[context.development]
+  command = "echo 'Development build'"
+
+[context.production]
+  command = "echo 'Production build'"

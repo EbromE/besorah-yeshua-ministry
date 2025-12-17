@@ -1,0 +1,31 @@
+{
+  "name": "besorah-yeshua-bible-planner",
+  "version": "1.0.0",
+  "description": "Free Bible reading planner with Ethiopian calendar support",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "npx live-server public --port=8080",
+    "test": "echo \"No tests yet\"",
+    "validate": "node scripts/validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/besorah-yeshua-bible-planner.git"
+  },
+  "keywords": [
+    "bible",
+    "reading-plan",
+    "ethiopian-calendar",
+    "study-planner",
+    "christian",
+    "devotional"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/besorah-yeshua-bible-planner/issues"
+  },
+  "homepage": "https://github.com/yourusername/besorah-yeshua-bible-planner#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
