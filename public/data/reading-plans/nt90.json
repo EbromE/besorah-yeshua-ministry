@@ -1,0 +1,139 @@
+{
+  "title": "90-Day New Testament Challenge",
+  "description": "Read through the entire New Testament in 90 days with 3 chapters per day average",
+  "totalDays": 90,
+  "totalChapters": 260,
+  "averageChaptersPerDay": 2.89,
+  "organization": "Chronological-Thematic",
+  "audience": "Evangelical Students",
+  
+  "schedule": [
+    {"day": 1, "reading": "Matthew 1-4", "theme": "Birth & Early Ministry", "chapters": 4},
+    {"day": 2, "reading": "Matthew 5-7", "theme": "Sermon on the Mount", "chapters": 3},
+    {"day": 3, "reading": "Matthew 8-10", "theme": "Miracles & Commissioning", "chapters": 3},
+    {"day": 4, "reading": "Matthew 11-13", "theme": "Authority & Parables", "chapters": 3},
+    {"day": 5, "reading": "Matthew 14-17", "theme": "Faith & Transfiguration", "chapters": 4},
+    {"day": 6, "reading": "Matthew 18-20", "theme": "Community & Greatness", "chapters": 3},
+    {"day": 7, "reading": "Matthew 21-23", "theme": "Jerusalem Confrontations", "chapters": 3},
+    {"day": 8, "reading": "Matthew 24-25", "theme": "End Times & Preparedness", "chapters": 2},
+    {"day": 9, "reading": "Matthew 26-28", "theme": "Passion & Resurrection", "chapters": 3},
+    
+    {"day": 10, "reading": "Mark 1-4", "theme": "Action-Packed Ministry", "chapters": 4},
+    {"day": 11, "reading": "Mark 5-7", "theme": "Power & Tradition", "chapters": 3},
+    {"day": 12, "reading": "Mark 8-10", "theme": "Identity & Service", "chapters": 3},
+    {"day": 13, "reading": "Mark 11-13", "theme": "Temple & Prophecy", "chapters": 3},
+    {"day": 14, "reading": "Mark 14-16", "theme": "Betrayal & Victory", "chapters": 3},
+    
+    {"day": 15, "reading": "Luke 1-2", "theme": "Birth Narratives", "chapters": 2},
+    {"day": 16, "reading": "Luke 3-5", "theme": "Preparation & Calling", "chapters": 3},
+    {"day": 17, "reading": "Luke 6-8", "theme": "Teaching & Miracles", "chapters": 3},
+    {"day": 18, "reading": "Luke 9-10", "theme": "Mission & Compassion", "chapters": 2},
+    {"day": 19, "reading": "Luke 11-13", "theme": "Prayer & Repentance", "chapters": 3},
+    {"day": 20, "reading": "Luke 14-16", "theme": "Discipleship & Stewardship", "chapters": 3},
+    {"day": 21, "reading": "Luke 17-19", "theme": "Faith & Salvation", "chapters": 3},
+    {"day": 22, "reading": "Luke 20-22", "theme": "Conflict & Last Supper", "chapters": 3},
+    {"day": 23, "reading": "Luke 23-24", "theme": "Cross & Resurrection", "chapters": 2},
+    
+    {"day": 24, "reading": "John 1-3", "theme": "The Word & New Birth", "chapters": 3},
+    {"day": 25, "reading": "John 4-6", "theme": "Living Water & Bread", "chapters": 3},
+    {"day": 26, "reading": "John 7-9", "theme": "Light of the World", "chapters": 3},
+    {"day": 27, "reading": "John 10-12", "theme": "Good Shepherd & Glory", "chapters": 3},
+    {"day": 28, "reading": "John 13-15", "theme": "Servant Love & Abiding", "chapters": 3},
+    {"day": 29, "reading": "John 16-18", "theme": "Spirit & Arrest", "chapters": 3},
+    {"day": 30, "reading": "John 19-21", "theme": "Sacrifice & Commission", "chapters": 3},
+    
+    {"day": 31, "reading": "Acts 1-3", "theme": "Spirit & First Sermon", "chapters": 3},
+    {"day": 32, "reading": "Acts 4-6", "theme": "Church Growth & Service", "chapters": 3},
+    {"day": 33, "reading": "Acts 7-8", "theme": "Stephen & Philip", "chapters": 2},
+    {"day": 34, "reading": "Acts 9-10", "theme": "Saul's Conversion & Cornelius", "chapters": 2},
+    {"day": 35, "reading": "Acts 11-13", "theme": "Gentile Inclusion & Missions", "chapters": 3},
+    {"day": 36, "reading": "Acts 14-16", "theme": "First Journey & Macedonian Call", "chapters": 3},
+    {"day": 37, "reading": "Acts 17-19", "theme": "Athens, Corinth & Ephesus", "chapters": 3},
+    {"day": 38, "reading": "Acts 20-22", "theme": "Farewells & Defense", "chapters": 3},
+    {"day": 39, "reading": "Acts 23-25", "theme": "Trials & Appeals", "chapters": 3},
+    {"day": 40, "reading": "Acts 26-28", "theme": "Testimony & Rome", "chapters": 3},
+    
+    {"day": 41, "reading": "Romans 1-3", "theme": "Universal Sin", "chapters": 3},
+    {"day": 42, "reading": "Romans 4-6", "theme": "Justification & New Life", "chapters": 3},
+    {"day": 43, "reading": "Romans 7-8", "theme": "Struggle & Victory", "chapters": 2},
+    {"day": 44, "reading": "Romans 9-11", "theme": "Israel & God's Plan", "chapters": 3},
+    {"day": 45, "reading": "Romans 12-14", "theme": "Practical Christianity", "chapters": 3},
+    {"day": 46, "reading": "Romans 15-16", "theme": "Unity & Greetings", "chapters": 2},
+    
+    {"day": 47, "reading": "1 Corinthians 1-3", "theme": "Divisions & Wisdom", "chapters": 3},
+    {"day": 48, "reading": "1 Corinthians 4-6", "theme": "Servants & Immorality", "chapters": 3},
+    {"day": 49, "reading": "1 Corinthians 7-8", "theme": "Marriage & Food", "chapters": 2},
+    {"day": 50, "reading": "1 Corinthians 9-11", "theme": "Rights & Worship", "chapters": 3},
+    {"day": 51, "reading": "1 Corinthians 12-14", "theme": "Spiritual Gifts", "chapters": 3},
+    {"day": 52, "reading": "1 Corinthians 15-16", "theme": "Resurrection & Instructions", "chapters": 2},
+    
+    {"day": 53, "reading": "2 Corinthians 1-3", "theme": "Comfort & New Covenant", "chapters": 3},
+    {"day": 54, "reading": "2 Corinthians 4-6", "theme": "Treasure in Jars", "chapters": 3},
+    {"day": 55, "reading": "2 Corinthians 7-9", "theme": "Repentance & Giving", "chapters": 3},
+    {"day": 56, "reading": "2 Corinthians 10-13", "theme": "Authority & Weakness", "chapters": 4},
+    
+    {"day": 57, "reading": "Galatians 1-3", "theme": "Gospel of Grace", "chapters": 3},
+    {"day": 58, "reading": "Galatians 4-6", "theme": "Freedom in Christ", "chapters": 3},
+    
+    {"day": 59, "reading": "Ephesians 1-3", "theme": "Spiritual Blessings", "chapters": 3},
+    {"day": 60, "reading": "Ephesians 4-6", "theme": "Unity & Armor", "chapters": 3},
+    
+    {"day": 61, "reading": "Philippians 1-2", "theme": "Joy & Humility", "chapters": 2},
+    {"day": 62, "reading": "Philippians 3-4", "theme": "Righteousness & Contentment", "chapters": 2},
+    
+    {"day": 63, "reading": "Colossians 1-2", "theme": "Supremacy of Christ", "chapters": 2},
+    {"day": 64, "reading": "Colossians 3-4", "theme": "New Life & Prayer", "chapters": 2},
+    
+    {"day": 65, "reading": "1 Thessalonians 1-3", "theme": "Faith & Love", "chapters": 3},
+    {"day": 66, "reading": "1 Thessalonians 4-5", "theme": "Holiness & Return", "chapters": 2},
+    
+    {"day": 67, "reading": "2 Thessalonians 1-3", "theme": "End Times & Work", "chapters": 3},
+    
+    {"day": 68, "reading": "1 Timothy 1-3", "theme": "Church Leadership", "chapters": 3},
+    {"day": 69, "reading": "1 Timothy 4-6", "theme": "Godliness & Contentment", "chapters": 3},
+    
+    {"day": 70, "reading": "2 Timothy 1-2", "theme": "Fan into Flame", "chapters": 2},
+    {"day": 71, "reading": "2 Timothy 3-4", "theme": "Scripture & Charge", "chapters": 2},
+    
+    {"day": 72, "reading": "Titus 1-3", "theme": "Sound Doctrine", "chapters": 3},
+    {"day": 73, "reading": "Philemon; Hebrews 1", "theme": "Reconciliation & Superiority", "chapters": 2},
+    
+    {"day": 74, "reading": "Hebrews 2-4", "theme": "Greater than Angels", "chapters": 3},
+    {"day": 75, "reading": "Hebrews 5-7", "theme": "High Priest", "chapters": 3},
+    {"day": 76, "reading": "Hebrews 8-10", "theme": "New Covenant", "chapters": 3},
+    {"day": 77, "reading": "Hebrews 11-13", "theme": "Faith & Endurance", "chapters": 3},
+    
+    {"day": 78, "reading": "James 1-3", "theme": "Faith & Works", "chapters": 3},
+    {"day": 79, "reading": "James 4-5; 1 Peter 1", "theme": "Humility & Hope", "chapters": 3},
+    
+    {"day": 80, "reading": "1 Peter 2-4", "theme": "Living Stones & Suffering", "chapters": 3},
+    {"day": 81, "reading": "1 Peter 5; 2 Peter 1-2", "theme": "Leadership & False Teachers", "chapters": 3},
+    {"day": 82, "reading": "2 Peter 3; 1 John 1-2", "theme": "New Heavens & Fellowship", "chapters": 3},
+    
+    {"day": 83, "reading": "1 John 3-5", "theme": "Love & Victory", "chapters": 3},
+    {"day": 84, "reading": "2 John; 3 John; Jude", "theme": "Truth & Contending", "chapters": 3},
+    
+    {"day": 85, "reading": "Revelation 1-3", "theme": "Letters to Churches", "chapters": 3},
+    {"day": 86, "reading": "Revelation 4-6", "theme": "Throne & Seals", "chapters": 3},
+    {"day": 87, "reading": "Revelation 7-9", "theme": "Sealed & Trumpets", "chapters": 3},
+    {"day": 88, "reading": "Revelation 10-12", "theme": "Little Scroll & Dragon", "chapters": 3},
+    {"day": 89, "reading": "Revelation 13-15", "theme": "Beasts & Harvest", "chapters": 3},
+    {"day": 90, "reading": "Revelation 16-18", "theme": "Bowls & Babylon", "chapters": 3}
+  ],
+  
+  "monthlyBreakdown": {
+    "Month 1": "Gospels (Days 1-30)",
+    "Month 2": "Acts & Pauline Epistles (Days 31-60)",
+    "Month 3": "General Epistles & Revelation (Days 61-90)"
+  },
+  
+  "statistics": {
+    "totalChapters": 260,
+    "gospels": 89,
+    "acts": 28,
+    "pauline": 87,
+    "general": 34,
+    "revelation": 22,
+    "avgTime": "15-25 minutes/day"
+  }
+}
