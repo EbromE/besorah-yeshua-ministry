@@ -1,5 +1,4 @@
-[file name]: public/js/storage.js
-[file content begin]
+
 // Local Storage Manager for Bible Planner
 // Stores user progress, notes, and preferences locally
 
