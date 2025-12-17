@@ -1,5 +1,4 @@
-[file name]: public/js/calendar.js
-[file content begin]
+
 // Calendar Manager for Bible Planner
 // Handles calendar rendering and date selection
 
