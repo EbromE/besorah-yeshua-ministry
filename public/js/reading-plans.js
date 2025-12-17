@@ -1,5 +1,4 @@
-[file name]: public/js/reading-plans.js
-[file content
+
 // Reading Plans Manager
 // Handles different Bible reading plans
 
