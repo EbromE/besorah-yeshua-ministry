@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Bible reading planner with Ethiopian calendar support and multiple reading plans. Upgrade to Basic Tier for enhanced features.">
+    <meta name="keywords" content="Bible, reading plan, Ethiopian calendar, devotional, study planner, NT90, OT365, Basic Tier">
+    
+    <title>Besorah Yeshua - Free Bible Reading Planner</title>
+    
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* Additional styles for upgrade CTAs */
+        .upgrade-banner {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        .upgrade-banner a {
+            color: white;
+            font-weight: 600;
+            text-decoration: underline;
+            margin-left: 0.5rem;
+        }
+        
+        .premium-badge {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+        
+        .plan-card.premium {
+            border: 2px solid #f59e0b;
+            position: relative;
+        }
+        
+        .premium-ribbon {
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 0.5rem 1rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border-radius: 0 0 5px 5px;
+        }
+        
+        .pricing-card {
+            background: var(--background);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+            transition: var(--transition);
+            border: 2px solid var(--border-color);
+        }
+        
+        .pricing-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .pricing-card.premium {
+            border-color: var(--primary-color);
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+        
+        .price {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            line-height: 1;
+            margin: 1rem 0;
+        }
+        
+        .price-period {
+            font-size: 1rem;
+            color: var(--text-secondary);
+        }
+        
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+            text-align: left;
+        }
+        
+        .pricing-features li {
+            padding: 0.5rem 0;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .pricing-features li:before {
+            content: "✓";
+            color: var(--success-color);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        
+        .free-cta {
+            margin-top: 3rem;
+            text-align: center;
+            padding: 2rem;
+            background: var(--surface);
+            border-radius: var(--border-radius);
+            border: 2px dashed var(--border-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Upgrade Banner -->
+    <div class="upgrade-banner">
+        <div class="container">
+            <span>✨ <strong>Basic Tier Now Available!</strong> Get detailed study notes, cloud backup, and more for only $3/month</span>
+            <a href="../basic-tier/pricing.html">Upgrade Now →</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>📖 Besorah Yeshua</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="planner.html" class="btn btn-primary">Start Free Reading</a></li>
+                <li><a href="../basic-tier/index.html" class="btn btn-secondary">Basic Tier</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Free Bible Reading Planner</h1>
+                <p class="hero-subtitle">Track your daily Bible readings with 3 comprehensive plans. No signup required for free tier.</p>
+                <div class="hero-buttons">
+                    <a href="planner.html" class="btn btn-large btn-primary">Start Free Planner</a>
+                    <a href="../basic-tier/index.html" class="btn btn-large btn-secondary">Try Basic Tier</a>
+                    <a href="../basic-tier/pricing.html" class="btn btn-large" style="background: #f59e0b; color: white;">Upgrade Now</a>
+                </div>
+                <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.9;">✓ Free forever • ✓ No registration • ✓ 3 Reading plans</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="features">
+        <div class="container">
+            <h2 class="section-title">Choose Your Reading Plan</h2>
+            <p class="section-subtitle" style="text-align: center; margin-bottom: 3rem; color: var(--text-secondary);">All plans available in Free Tier. Basic Tier adds study notes and advanced features.</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card plan-card">
+                    <div class="feature-icon">⏱️</div>
+                    <h3>90-Day NT Challenge</h3>
+                    <p class="plan-duration">3 Months • Free</p>
+                    <p class="plan-stats">260 Chapters • ~3 chapters/day</p>
+                    <p>Read the entire New Testament in 90 days. Perfect for busy students and first-time readers.</p>
+                    <a href="planner.html?plan=nt90" class="btn btn-primary">Start Free</a>
+                </div>
+                <div class="feature-card plan-card">
+                    <div class="feature-icon">📅</div>
+                    <h3>OT365 Challenge</h3>
+                    <p class="plan-duration">1 Year • Free</p>
+                    <p class="plan-stats">929 Chapters • ~3 chapters/day</p>
+                    <p>Read the entire Old Testament in one year. Comprehensive journey through Hebrew Scriptures.</p>
+                    <a href="planner.html?plan=ot365" class="btn btn-primary">Start Free</a>
+                </div>
+                <div class="feature-card plan-card premium">
+                    <div class="premium-ribbon">Enhanced in Basic</div>
+                    <div class="feature-icon">🌍</div>
+                    <h3>Ethiopian Calendar</h3>
+                    <p class="plan-duration">1 Year • Free</p>
+                    <p class="plan-stats">Traditional • Feast Days</p>
+                    <p>Follow the Ethiopian calendar with traditional readings and cultural feast day celebrations.</p>
+                    <div style="display: flex; gap: 0.5rem; justify-content: center;">
+                        <a href="planner.html?plan=ethiopian" class="btn btn-primary">Start Free</a>
+                        <a href="../basic-tier/index.html" class="btn" style="background: #f59e0b; color: white;">Enhanced</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Features Comparison</h2>
+            <p class="section-subtitle" style="text-align: center; margin-bottom: 3rem; color: var(--text-secondary);">What you get with Free vs Basic Tier</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📅</div>
+                    <h3>Dual Calendar</h3>
+                    <p>Switch between Gregorian and Ethiopian calendars <span class="premium-badge">Both Tiers</span></p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h3>Three Plans</h3>
+                    <p>Choose from 3 comprehensive reading plans <span class="premium-badge">Both Tiers</span></p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✅</div>
+                    <h3>Progress Tracking</h3>
+                    <p>Mark readings complete and track statistics <span class="premium-badge">Both Tiers</span></p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3>Auto-Save</h3>
+                    <p>Your progress saves locally in your browser <span class="premium-badge">Free Only</span></p>
+                    <p style="margin-top: 0.5rem; font-size: 0.9rem;"><strong>Basic:</strong> Cloud backup included</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Study Notes</h3>
+                    <p>Record reflections for each day's reading <span class="premium-badge">Basic Only</span></p>
+                    <p style="margin-top: 0.5rem; font-size: 0.9rem;"><strong>Free:</strong> Notes not saved between sessions</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Study Details</h3>
+                    <p>Detailed commentary and historical context <span class="premium-badge">Basic Only</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="features" style="background: var(--surface);">
+        <div class="container">
+            <h2 class="section-title">Simple, Transparent Pricing</h2>
+            <p class="section-subtitle" style="text-align: center; margin-bottom: 3rem; color: var(--text-secondary);">Choose the plan that's right for you</p>
+            
+            <div class="feature-grid">
+                <div class="pricing-card">
+                    <h3>Free Tier</h3>
+                    <p>Perfect for getting started</p>
+                    <div class="price">$0</div>
+                    <p class="price-period">forever free</p>
+                    
+                    <ul class="pricing-features">
+                        <li>3 Reading Plans (NT90, OT365, Ethiopian)</li>
+                        <li>Progress Tracking & Calendar</li>
+                        <li>Local Browser Storage</li>
+                        <li>Mobile Responsive Design</li>
+                        <li>No Registration Required</li>
+                        <li>Basic Notes (session only)</li>
+                    </ul>
+                    
+                    <a href="planner.html" class="btn btn-primary btn-large">Start Free Now</a>
+                </div>
+                
+                <div class="pricing-card premium">
+                    <h3>Basic Tier</h3>
+                    <p>Enhanced study experience</p>
+                    <div class="price">$3</div>
+                    <p class="price-period">per month</p>
+                    
+                    <ul class="pricing-features">
+                        <li><strong>Everything in Free Tier</strong></li>
+                        <li>Save Study Notes Permanently</li>
+                        <li>Detailed Commentary & Study Guides</li>
+                        <li>Cloud Backup of Progress</li>
+                        <li>Export Notes as PDF</li>
+                        <li>Ethiopian Calendar Details</li>
+                        <li>Historical Context Notes</li>
+                        <li>Priority Email Support</li>
+                    </ul>
+                    
+                    <a href="../basic-tier/pricing.html" class="btn btn-primary btn-large">Upgrade Now</a>
+                    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">7-day money-back guarantee</p>
+                </div>
+            </div>
+            
+            <div class="free-cta">
+                <h3>Try Free First</h3>
+                <p>Start with our free tier and upgrade anytime to unlock premium features.</p>
+                <a href="planner.html" class="btn btn-large btn-primary">Start Free Reading Plan</a>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-secondary);">No credit card required for free tier</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About This Project</h2>
+            <div class="about-content">
+                <p><strong>Besorah Yeshua</strong> (Gospel of Jesus) is a Bible reading planner designed to help you stay consistent in daily Scripture reading.</p>
+                
+                <p><strong>Why Two Tiers?</strong> We believe everyone should have access to Bible reading tools. Our free tier provides essential features for everyone, while our Basic Tier ($3/month) supports development and provides enhanced features for serious students.</p>
+                
+                <p><strong>Privacy First:</strong> Your data stays on your device in free tier. Basic Tier uses secure cloud storage with encryption.</p>
+                
+                <p><strong>Open Source:</strong> The free tier is open source. Developers can contribute or build upon it.</p>
+                
+                <p><strong>Support:</strong> Basic Tier subscriptions help maintain and improve the tool for everyone.</p>
+                
+                <p>Built with love for the global body of Christ. Use it freely and share with others.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Bible Journey?</h2>
+            <p>Begin with our free tier or upgrade for enhanced features</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="planner.html" class="btn btn-large btn-primary">Start Free Reading</a>
+                <a href="../basic-tier/pricing.html" class="btn btn-large" style="background: white; color: var(--primary-color);">View Basic Tier</a>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">Free tier: No registration • No payment • Forever free</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Besorah Yeshua. A tool for Bible readers worldwide.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="planner.html">Planner</a>
+                <a href="../basic-tier/pricing.html">Pricing</a>
+                <a href="https://github.com/yourusername/besorah-yeshua-bible-planner" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // Highlight current section in navigation
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-menu a[href^="#"]');
+            
+            window.addEventListener('scroll', function() {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (scrollY >= (sectionTop - 100)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
